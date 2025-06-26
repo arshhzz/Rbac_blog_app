@@ -5,7 +5,7 @@
 
 Backend:
 1. cd Backend  
-2. npm install  
+2. npm install, zod, bcrypt, mongoose, cors.
 3. Create `.env` file with:  
 
 Libraries Used (Backend):
@@ -19,7 +19,7 @@ PORT=5000
 MONGO_URI=yourMongoUrL here
 JWT_SECRET=secret123 > this is an example .env, put your own credentials in it, to work as per expectations.
 
-4. node index.js
+4. node index.js, To run the backend, as this is the main entry point for all routes.
 
 Frontend:
 1. cd Frontend  
@@ -27,11 +27,11 @@ Frontend:
 3. npm run dev
 
 Frontend Tech Stack:
-
 React.js
 Axios
 Tailwind CSS
 React Router DOM
+
 
 ## Features
 
